@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenQuill - Software de Edicion de Codigo Ligero y Eficiente</title>
+    <script src="mainscrpt.js"></script>
+    <style>
+      :root {
+        --primary-color: #098eed;
+        --secondary-color: #c5e7ff;
+        --text-color: #333333;
+        --main-font-family: Adelle, Roboto Slab, DejaVu Serif, Georgia,
+          Times New Roman, sans-serif;
+      }
+
+      body {
+        background-color: #ffffff;
+        font-family: var(--main-font-family);
+        text-rendering: optimizeLegibility;
+      }
+
+      div.navbar {
+        background-color: #c5e7ff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      div.main-content {
+        margin: 10px;
+        text-align: justify;
+      }
+
+      button.bootup-button {
+        font-family: var(--main-font-family);
+        background-color: #098eed;
+        font-weight: bolder;
+        font-weight: bold;
+        color: #ffffff;
+        border-radius: 7px;
+        padding: 10px;
+        border: None;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      }
+      button.bootup-button:hover {
+        background-color: #0a7dd1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <nav>
+        <a href="main_editor.html">Editor</a>
+        <a href="#info-nosotros">Acerca de Nosotros</a>
+        <a href="#documentacion">Documentacion</a>
+      </nav>
+    </div>
+    <div class="main-content">
+      <h1>OpenQuill</h1>
+      <p>
+        OpenQuill es un innovador editor de código en la web, diseñado para
+        desarrolladores que buscan una herramienta flexible y potente para crear
+        y gestionar sus proyectos de manera eficiente. Con OpenQuill, puedes
+        escribir, editar y exportar tu código en una variedad de formatos,
+        aprovechando la libertad de trabajar en cualquier momento.
+      </p>
+      <a href="main_editor.html">
+        <button class="bootup-button">Comenzar a Editar</button>
+      </a>
+    </div>
+  </body>
+</html>
