@@ -15,7 +15,7 @@
       }
 
       body {
-        background-color: #ffffff;
+        background-color: var(--secondary-color);
         font-family: var(--main-font-family);
         text-rendering: optimizeLegibility;
         margin: 0;
@@ -23,13 +23,23 @@
 
       div.navbar {
         background-color: var(--primary-color);
-        width: 100%;
+        width: auto;
         height: 40px;
         padding: 10px;
+        margin: 12px;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        a {
+          color: #ffffff;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: bold;
+          margin-inline-end: 24px;
+          transition: color 0.3s ease;
+        }
       }
 
       div.main-content {
@@ -61,7 +71,7 @@
       <nav>
         <a href="main_editor.html">Editor</a>
         <a href="#info-nosotros">Acerca de Nosotros</a>
-        <a href="#documentacion">Documentacion</a>
+        <a href="#documentacion">Documentación</a>
       </nav>
     </div>
     <div class="main-content">
